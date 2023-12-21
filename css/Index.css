@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(14, 6, 14);
+    color: white;
+    font-family: Poppins;
+}
+.main{
+    padding: 20px 40px;
+}
+div.box-spotify-imagem{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+h1.titulo-logo{
+    font-size: 1.5em;
+}
+header.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-container{
+    display: flex;
+    font-weight: 500;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+li.menu-item{
+    letter-spacing: 0.05em;
+}
+a.menu-botao{
+    text-decoration: none;
+    color: white;
+    background-color: #87cb06;
+    padding:8px 40px;
+    font-weight: 700;
+    box-shadow:3px 5px 13px 3px rgba(172, 255, 47, 0.308);
+    border-radius: 20px;
+}
+.welcome-page{
+    display: flex;
+    justify-content: space-around;
+}
+div.apresentacao-welcome{
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.welcome-titulo{
+    font-size: 5em;
+    margin-top: 87px;
+    font-weight: 700;
+
+}
+.logo{
+    width: 70px;
+}
+
+.input-texto-welcome{
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    outline: none;
+}
+.input-texto-welcome::placeholder{
+    background-image: url(../imagem/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: 1em;
+
+}
+   
